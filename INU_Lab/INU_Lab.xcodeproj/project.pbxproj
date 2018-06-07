@@ -13,6 +13,12 @@
 		C811277820C90FBD00121455 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C811277620C90FBD00121455 /* Main.storyboard */; };
 		C811277A20C90FBE00121455 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C811277920C90FBE00121455 /* Assets.xcassets */; };
 		C811277D20C90FBE00121455 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C811277B20C90FBE00121455 /* LaunchScreen.storyboard */; };
+		C811278520C91C5800121455 /* Calendar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C811278420C91C5800121455 /* Calendar.storyboard */; };
+		C811278720C91C6400121455 /* Idea.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C811278620C91C6400121455 /* Idea.storyboard */; };
+		C811278920C91C7800121455 /* Advertising.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C811278820C91C7800121455 /* Advertising.storyboard */; };
+		C811278D20C91D6500121455 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C811278C20C91D6500121455 /* Profile.storyboard */; };
+		C811278F20C93A0D00121455 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C811278E20C93A0D00121455 /* CalendarViewController.swift */; };
+		C811279120C93E4E00121455 /* CalendarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C811279020C93E4E00121455 /* CalendarTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,12 @@
 		C811277920C90FBE00121455 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C811277C20C90FBE00121455 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C811277E20C90FBE00121455 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C811278420C91C5800121455 /* Calendar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Calendar.storyboard; sourceTree = "<group>"; };
+		C811278620C91C6400121455 /* Idea.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Idea.storyboard; sourceTree = "<group>"; };
+		C811278820C91C7800121455 /* Advertising.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Advertising.storyboard; sourceTree = "<group>"; };
+		C811278C20C91D6500121455 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		C811278E20C93A0D00121455 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		C811279020C93E4E00121455 /* CalendarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +87,12 @@
 				C811277920C90FBE00121455 /* Assets.xcassets */,
 				C811277B20C90FBE00121455 /* LaunchScreen.storyboard */,
 				C811277E20C90FBE00121455 /* Info.plist */,
+				C811278420C91C5800121455 /* Calendar.storyboard */,
+				C811278E20C93A0D00121455 /* CalendarViewController.swift */,
+				C811279020C93E4E00121455 /* CalendarTableViewCell.swift */,
+				C811278620C91C6400121455 /* Idea.storyboard */,
+				C811278820C91C7800121455 /* Advertising.storyboard */,
+				C811278C20C91D6500121455 /* Profile.storyboard */,
 			);
 			path = INU_Lab;
 			sourceTree = "<group>";
@@ -148,9 +166,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C811278520C91C5800121455 /* Calendar.storyboard in Resources */,
 				C811277D20C90FBE00121455 /* LaunchScreen.storyboard in Resources */,
+				C811278720C91C6400121455 /* Idea.storyboard in Resources */,
 				C811277A20C90FBE00121455 /* Assets.xcassets in Resources */,
 				C811277820C90FBD00121455 /* Main.storyboard in Resources */,
+				C811278D20C91D6500121455 /* Profile.storyboard in Resources */,
+				C811278920C91C7800121455 /* Advertising.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,7 +187,9 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-INU_Lab/Pods-INU_Lab-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/BetterSegmentedControl/BetterSegmentedControl.framework",
 				"${BUILT_PRODUCTS_DIR}/FSCalendar/FSCalendar.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
 				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
@@ -173,7 +197,9 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BetterSegmentedControl.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSCalendar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
@@ -208,8 +234,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C811278F20C93A0D00121455 /* CalendarViewController.swift in Sources */,
 				C811277520C90FBD00121455 /* ViewController.swift in Sources */,
 				C811277320C90FBD00121455 /* AppDelegate.swift in Sources */,
+				C811279120C93E4E00121455 /* CalendarTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
