@@ -1,0 +1,6 @@
+framework module Pods_INU_Lab {
+  umbrella header "Pods-INU_Lab-umbrella.h"
+
+  export *
+  module * { export * }
+}
