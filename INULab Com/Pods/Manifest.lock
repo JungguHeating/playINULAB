@@ -1,0 +1,32 @@
+PODS:
+  - Alamofire (4.6.0)
+  - BetterSegmentedControl (0.9)
+  - FSCalendar (2.7.9)
+  - IQKeyboardManagerSwift (5.0.7)
+  - Realm (3.1.0):
+    - Realm/Headers (= 3.1.0)
+  - Realm/Headers (3.1.0)
+  - RealmSwift (3.1.0):
+    - Realm (= 3.1.0)
+  - Toast-Swift (3.0.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.5)
+  - BetterSegmentedControl (~> 0.9)
+  - FSCalendar
+  - IQKeyboardManagerSwift
+  - RealmSwift
+  - Toast-Swift (~> 3.0.1)
+
+SPEC CHECKSUMS:
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  BetterSegmentedControl: 40b2b6a08bbc59663149624d1b5235efa8d43a3c
+  FSCalendar: a04b09f16f811bc92e82f3cf852a15225233b9d5
+  IQKeyboardManagerSwift: 30fb3a61de1af53a95e02b80fb54ed0a19d5ede5
+  Realm: 09513d7c054678d65cd02ce09871f805b0d758ac
+  RealmSwift: e868fee9b10e5490ad94b6b6ecd9027944da1824
+  Toast-Swift: ba0b01b095aada709d915f9beb1d38184a2721c3
+
+PODFILE CHECKSUM: ee7b2ca27903d093939a03a8d321181794be59a2
+
+COCOAPODS: 1.4.0
